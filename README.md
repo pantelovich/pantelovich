@@ -23,6 +23,7 @@ I got into cloud security properly during my degree. The incident response and I
 
 | Project | What it does |
 |---|---|
+| [cloud-misconfig-scanner](https://github.com/Pantelovich/cloud-misconfig-scanner) | CLI tool that audits AWS accounts for common misconfigurations — public S3, wildcard IAM, open security groups, unencrypted EBS, missing CloudTrail. Colour-coded report + JSON output. |
 | [cloud-incident-response-lab](https://github.com/Pantelovich/cloud-incident-response-lab) | Automated AWS incident response — GuardDuty detects, Lambda isolates compromised EC2s, SNS alerts. No manual steps. |
 | [cloud-threat-detection-lab](https://github.com/Pantelovich/cloud-threat-detection-lab) | Simulates and detects cloud threats using GuardDuty, CloudWatch, and SNS visibility pipelines. |
 | [aws-compliance-baseline](https://github.com/Pantelovich/aws-compliance-baseline) | Compliance scanner — AWS Config, Security Hub, CloudTrail. Flags misconfigurations before they become incidents. |
