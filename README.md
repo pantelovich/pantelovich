@@ -28,7 +28,6 @@ I got into cloud security properly during my degree. The incident response and I
 | [aws-compliance-baseline](https://github.com/Pantelovich/aws-compliance-baseline) | Compliance scanner — AWS Config, Security Hub, CloudTrail. Flags misconfigurations before they become incidents. |
 | [serverless-secure-webapp](https://github.com/Pantelovich/serverless-secure-webapp) | Serverless web app with WAF, least-privilege IAM, and Secrets Manager baked in from the start, not retrofitted. |
 | [iam-least-privilege-lab](https://github.com/Pantelovich/iam-least-privilege-lab) | Hands-on IAM policy design — explicit deny guardrails, over-permissive vs well-scoped policy comparisons. |
-| [AgentGuard](https://github.com/Pantelovich/agentguard) | Runtime authorisation tool for AI agents. Early stage, co-founded with a friend, solving a real problem. |
 
 ---
 
