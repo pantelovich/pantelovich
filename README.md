@@ -23,10 +23,10 @@ I got into cloud security properly during my degree. The incident response and I
 
 | Project | What it does |
 |---|---|
-| [cloud-misconfig-scanner](https://github.com/Pantelovich/cloud-misconfig-scanner) | CLI tool that audits AWS accounts for common misconfigurations — public S3, wildcard IAM, open security groups, unencrypted EBS, missing CloudTrail. Colour-coded report + JSON output. |
+| [cloud-misconfig-scanner](https://github.com/Pantelovich/cloud-misconfig-scanner) | CLI tool that audits AWS accounts for common misconfigurations — public S3, missing S3 default encryption, wildcard IAM, open security groups, unencrypted EBS, missing CloudTrail. Colour-coded report + JSON output. |
 | [cloud-incident-response-lab](https://github.com/Pantelovich/cloud-incident-response-lab) | Automated AWS incident response — GuardDuty detects, Lambda isolates compromised EC2s, SNS alerts. No manual steps. |
-| [cloud-threat-detection-lab](https://github.com/Pantelovich/cloud-threat-detection-lab) | Simulates and detects cloud threats using GuardDuty, CloudWatch, and SNS visibility pipelines. |
-| [aws-compliance-baseline](https://github.com/Pantelovich/aws-compliance-baseline) | Compliance scanner — AWS Config, Security Hub, CloudTrail. Flags misconfigurations before they become incidents. |
+| [cloud-threat-detection-lab](https://github.com/Pantelovich/cloud-threat-detection-lab) | Simulates and detects cloud threats using GuardDuty, CloudWatch, SNS alerting, and optional Lambda remediation. |
+| [aws-compliance-baseline](https://github.com/Pantelovich/aws-compliance-baseline) | Compliance baseline — AWS Config, custom Config rules, Security Hub, CloudTrail. Flags misconfigurations before they become incidents. |
 | [serverless-secure-webapp](https://github.com/Pantelovich/serverless-secure-webapp) | Serverless web app with WAF, least-privilege IAM, and Secrets Manager baked in from the start, not retrofitted. |
 | [iam-least-privilege-lab](https://github.com/Pantelovich/iam-least-privilege-lab) | Hands-on IAM policy design — explicit deny guardrails, over-permissive vs well-scoped policy comparisons. |
 
