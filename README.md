@@ -1,70 +1,58 @@
-# Hi, I'm Pantelis
+# Panteleimon Tzompanakis
 
-I am a Cloud Engineering student based in Coventry, UK, originally from Greece.  
-My focus is on Cloud Security, DevSecOps, and Infrastructure as Code, with a commitment to building secure, automated, and well-documented cloud infrastructures.
+Cloud security and infrastructure engineering. Final-year BSc Cloud Computing at Coventry University, originally from Greece.
 
----
-
-## Areas of Focus
-
-- Cloud Security Engineering – incident detection, response, and compliance automation  
-- Infrastructure as Code – Terraform, modular design, reusable architectures  
-- Serverless Automation – AWS Lambda, EventBridge, and CI/CD pipelines  
-- Python Development – security automation, encryption utilities, AWS SDK (boto3)
+I got into cloud security properly during my degree. The incident response and IAM modules were the ones that made me stay up past midnight. Most of what's here came from pushing past what the coursework required, because that's where things got interesting.
 
 ---
 
-## Featured Projects
+## What I work with
 
-### [Cloud Incident Response Lab](https://github.com/pantelovich/cloud-incident-response-lab)
-A complete incident automation lab built with Terraform, AWS GuardDuty, and Lambda.  
-It automatically isolates compromised EC2 instances and sends detailed alerts via SNS.  
-This project demonstrates practical incident response workflows and DevSecOps automation principles.
-
----
-
-### [Cloud Threat Detection & Response Lab](https://github.com/pantelovich/cloud-threat-detection-lab)
-A Terraform-based lab that simulates and detects cloud security incidents using AWS GuardDuty, CloudWatch, and SNS.  
-It showcases automated threat detection, alerting, and visibility pipelines designed for real-world AWS environments.
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
 
-### [AWS Compliance Baseline](https://github.com/pantelovich/aws-compliance-baseline)
-A cloud compliance framework implemented with AWS Config, Security Hub, and CloudTrail.  
-It continuously monitors AWS accounts for misconfigurations, enforces best practices, and sends SNS alerts for violations.  
-This project highlights preventive security, governance automation, and continuous compliance design.
+## Projects
+
+| Project | What it does |
+|---|---|
+| [cloud-incident-response-lab](https://github.com/Pantelovich/cloud-incident-response-lab) | Automated AWS incident response — GuardDuty detects, Lambda isolates compromised EC2s, SNS alerts. No manual steps. |
+| [cloud-threat-detection-lab](https://github.com/Pantelovich/cloud-threat-detection-lab) | Simulates and detects cloud threats using GuardDuty, CloudWatch, and SNS visibility pipelines. |
+| [aws-compliance-baseline](https://github.com/Pantelovich/aws-compliance-baseline) | Compliance scanner — AWS Config, Security Hub, CloudTrail. Flags misconfigurations before they become incidents. |
+| [serverless-secure-webapp](https://github.com/Pantelovich/serverless-secure-webapp) | Serverless web app with WAF, least-privilege IAM, and Secrets Manager baked in from the start, not retrofitted. |
+| [iam-least-privilege-lab](https://github.com/Pantelovich/iam-least-privilege-lab) | Hands-on IAM policy design — explicit deny guardrails, over-permissive vs well-scoped policy comparisons. |
+| [AgentGuard](https://github.com/Pantelovich/agentguard) | Runtime authorisation tool for AI agents. Early stage, co-founded with a friend, solving a real problem. |
 
 ---
 
-### [Serverless Secure Web App](https://github.com/pantelovich/serverless-secure-webapp)
-A production-style serverless web application using AWS Lambda, API Gateway, WAF, and RDS.  
-Implements encryption at rest, Secrets Manager integration, and least-privilege IAM for secure architecture design.
+## Currently learning
+
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+![Microsoft 365](https://img.shields.io/badge/Microsoft_365-D83B01?style=flat-square&logo=microsoftoffice&logoColor=white)
+![Entra ID](https://img.shields.io/badge/Entra_ID-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+
+AZ-900 ✓
+
+**Next:** Kubernetes · Microsoft Sentinel · GitHub Actions CI/CD · Azure DevOps
 
 ---
 
-### [IAM Least Privilege Lab](https://github.com/pantelovich/iam-least-privilege-lab)
-A hands-on Terraform lab exploring IAM policy design and least-privilege access control.  
-It demonstrates the difference between over-permissive and well-scoped policies using explicit deny guardrails and CLI-based tests.
+## Certifications
+
+Google: Cybersecurity · IT Automation with Python · Cloud Infrastructure for AWS · Intro to AI
 
 ---
 
-## Currently Learning
+## Connect
 
-- Advanced Terraform: policy as code, module design, and reusable pipelines  
-- AWS Security Services: Security Hub, Config, GuardDuty, and WAF  
-- DevSecOps Practices: Checkov, tfsec, Trivy, and GitHub Actions
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/panteleimontzompanakis)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:tzobuss@gmail.com)
 
----
-
-## Contact
-
-- LinkedIn: [linkedin.com/in/panteleimontzompanakis](https://www.linkedin.com/in/panteleimontzompanakis)  
-- Email: [tzobuss@gmail.com](mailto:tzobuss@gmail.com)
-
----
-
-### About This Profile
-
-This portfolio represents my development as a cloud engineering student focusing on security and automation.  
-Each project is designed to demonstrate real-world problem solving, secure architecture design, and disciplined engineering practices.  
-I aim to build cloud systems that are transparent, auditable, and resilient by default.
+Open to Junior Cloud, DevOps, or Cloud Security roles in the West Midlands — hybrid or remote.
