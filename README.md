@@ -39,7 +39,7 @@ I got into cloud security properly during my degree. The incident response and I
 
 AZ-900 ✓
 
-**Next:** Kubernetes · Microsoft Sentinel · GitHub Actions CI/CD · Azure DevOps
+**Next:** Working towards Kubernetes and Microsoft Sentinel next — want to go deeper into the cloud security and platform side.
 
 ---
 
